@@ -75,5 +75,5 @@ html, body {
   border-radius: 999px;
   background: #000a;
   color: #fff;
-  font: 700 .85rem inherit;
+  font: 700 .85rem "Segoe UI", system-ui, Roboto, sans-serif;
 }

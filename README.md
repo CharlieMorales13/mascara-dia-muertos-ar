@@ -4,6 +4,8 @@ Máscara de **Día de Muertos** en realidad aumentada, **mapeada a la malla faci
 
 > Actividad 3 · Realidad Virtual y Aumentada · 2026 · mejora de la Actividad 2 (repositorio `02-filtro-alebrije`)
 
+**Pruébalo:** https://mascara-dia-muertos-ar.carlos-gomez-dev13.workers.dev/ · **Modo demo en PC:** https://mascara-dia-muertos-ar.carlos-gomez-dev13.workers.dev/?demo
+
 | Máscara sobre la malla | Pétalos y veladoras | Textura sobre el UV |
 |---|---|---|
 | ![Máscara](docs/capturas/mascara.png) | ![Efectos](docs/capturas/efectos.png) | ![Textura](docs/capturas/textura_uv.png) |
@@ -56,7 +58,7 @@ Cada gesto usa un umbral, un rearme y una pausa mínima (`js/gestos.js`, con pru
 ## Instalación y uso
 
 ```bash
-git clone <url-del-repo> && cd 03-mascara-dia-de-muertos
+git clone https://github.com/CharlieMorales13/mascara-dia-muertos-ar.git && cd mascara-dia-muertos-ar
 npx serve .
 ```
 

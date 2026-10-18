@@ -36,7 +36,7 @@ Pasé de un modelo rígido colocado con una matriz a una malla que se deforma co
 Una máscara web que abre directo en la cámara frontal y se siente "pegada" a la piel. Ideal para estas fechas.
 
 🎥 [video / GIF aquí]
-💻 Repositorio: https://github.com/TU-USUARIO/03-mascara-dia-de-muertos
-🔗 Pruébalo: https://TU-URL
+💻 Repositorio: https://github.com/CharlieMorales13/mascara-dia-muertos-ar
+🔗 Pruébalo: https://mascara-dia-muertos-ar.carlos-gomez-dev13.workers.dev/
 
 #DíaDeMuertos #RealidadAumentada #MediaPipe #threejs #Oaxaca #Cempasúchil #FiltrosAR

@@ -1,0 +1,9 @@
+# no se publica: historial de git, configuración y archivos fuente que la web no usa
+.git
+.wrangler
+.assetsignore
+.gitignore
+wrangler.jsonc
+node_modules
+*.py
+*.blend

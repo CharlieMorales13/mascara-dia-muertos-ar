@@ -1,0 +1,6 @@
+// Sitio estático en Cloudflare Workers (npx wrangler deploy). Lo que no se publica está en .assetsignore.
+{
+  "name": "mascara-dia-muertos-ar",
+  "compatibility_date": "2026-10-12",
+  "assets": { "directory": "." }
+}

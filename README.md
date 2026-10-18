@@ -38,12 +38,12 @@ Cada gesto usa un umbral, un rearme y una pausa mínima (`js/gestos.js`, con pru
 
 ## Mejora frente a la Actividad 2
 
-| | Actividad 2: Filtro Alebrije | Actividad 3: Calavera |
+| | Actividad 2: Zorro de fiesta | Actividad 3: Calavera |
 |---|---|---|
 | Ajuste | Modelo rígido colocado con la matriz de transformación facial | **Malla que se deforma** con los 468 landmarks |
 | Gestos | La máscara no cambia de forma | La boca se abre y los párpados se cierran **con** la máscara |
-| Ojos y boca | Cubiertos por la máscara | **Transparentes**: se ven tus ojos y tus dientes |
-| Textura | Patrón procedural en un casco | Textura pintada sobre el **mapa UV** facial, sin costuras |
+| Ojos y boca | Huecos fijos en los ojos; la boca queda bajo el hocico | **Transparentes** y siguen tu cara: se ven tus ojos y tus dientes |
+| Textura | La del modelo de Meshy, independiente de tu rostro | Textura pintada sobre el **mapa UV** facial, sin costuras |
 | Efectos | Confeti, color, brillo | Pétalos, veladoras y cambio día/noche, con tema de Día de Muertos |
 
 ## Herramientas

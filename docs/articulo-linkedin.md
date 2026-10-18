@@ -4,7 +4,7 @@
 
 ---
 
-En la actividad anterior hice un filtro de alebrije que "flotaba" sobre la cara. Funcionaba, pero tenía un límite: era un modelo rígido. Si abrías la boca, la máscara no se enteraba. Para esta tercera actividad de Realidad Virtual y Aumentada el reto fue una máscara de Día de Muertos **mapeada a la malla facial**, que se ajuste a ojos, nariz, boca y contorno.
+En la actividad anterior hice un filtro de zorro de fiesta que "flotaba" sobre la cara. Funcionaba, pero tenía un límite: era un modelo rígido. Si abrías la boca, la máscara no se enteraba. Para esta tercera actividad de Realidad Virtual y Aumentada el reto fue una máscara de Día de Muertos **mapeada a la malla facial**, que se ajuste a ojos, nariz, boca y contorno.
 
 🎯 **Objetivo**
 Diseñar una calavera inspirada en el Día de Muertos que se deforme con los gestos sin desprenderse, con ojos y boca transparentes y un efecto temático activado por gestos.
@@ -30,7 +30,7 @@ MediaPipe Face Landmarker (468 landmarks y blendshapes), three.js, Python con Pi
 - **Respeto cultural:** quería que se sintiera como una ofrenda oaxaqueña y no como un disfraz genérico.
 
 📈 **Mejora frente a la Actividad 2**
-Pasé de un modelo rígido colocado con una matriz a una malla que se deforma con 468 puntos. Pasé de cubrir la cara a dejar ver tus ojos y tu boca, y de un patrón procedural a una textura pintada sobre el UV facial.
+Pasé de un modelo rígido colocado con una matriz a una malla que se deforma con 468 puntos. Pasé de cubrir la cara a dejar ver tus ojos y tu boca, y de un modelo 3D independiente de tu rostro a una textura pintada sobre el UV facial.
 
 ✅ **Resultado**
 Una máscara web que abre directo en la cámara frontal y se siente "pegada" a la piel. Ideal para estas fechas.

@@ -77,6 +77,7 @@ npx serve .
 |---|---|---|
 | Código, diseño de la calavera y texturas | Carlos Antonio Gómez Morales | MIT (ver `LICENSE`) |
 | Campanas y efectos | Sintetizados en código, autoría propia | MIT |
+| Veladoras (`assets/veladora.glb`, reducidas en la Actividad 4) | [Candles Asset Pack](https://sketchfab.com/3d-models/candles-asset-pack-56a68205dae649a388c6e3ba04145a9e) de [Em Marshall](https://sketchfab.com/emarshall) | CC BY 4.0 |
 | Modelo facial canónico y mapa UV (`canonical_face_model.obj`) | Google, MediaPipe | Apache 2.0 |
 | MediaPipe Tasks Vision y modelo Face Landmarker | Google | Apache 2.0 |
 | three.js | three.js authors | MIT |

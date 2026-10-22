@@ -129,7 +129,7 @@ function crearVela() {
 }
 
 // Las veladoras de Sketchfab (las mismas del altar) sustituyen a los cilindros
-// en cuanto cargan; el halo sigue titilando detrás de cada una.
+// en cuanto cargan.
 new GLTFLoader().load('assets/veladora.glb', gltf => {
   const caja = new THREE.Box3().setFromObject(gltf.scene);
   const k = 1.1 / caja.getSize(new THREE.Vector3()).y;
@@ -137,9 +137,8 @@ new GLTFLoader().load('assets/veladora.glb', gltf => {
   gltf.scene.position.set(-(caja.min.x + caja.max.x) / 2 * k, -0.55 - caja.min.y * k, -(caja.min.z + caja.max.z) / 2 * k);
   for (const v of velas) {
     const [cera, vaso, flama, halo] = v.children;
-    cera.visible = vaso.visible = flama.visible = false;
+    cera.visible = vaso.visible = flama.visible = halo.visible = false; // el modelo ya trae sus flamas
     v.add(gltf.scene.clone());
-    v.userData.flama = halo;
   }
 });
 
